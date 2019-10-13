@@ -15,3 +15,8 @@ git push --set-upstream upstream master
 git push upstream
 
 
+**OR**
+
+git clone --bare https://github.com/exampleuser/old-repository.git
+
+git push --mirror https://github.com/exampleuser/new-repository.git
