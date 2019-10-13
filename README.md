@@ -8,6 +8,10 @@ _Create new Repo_
 
 curl -u 'unix365' https://api.github.com/user/repos -d '{"name":"ansible-examples"}'
 
+git remote remove origin
+
+git push --set-upstream upstream master
+
 git push upstream
 
 
